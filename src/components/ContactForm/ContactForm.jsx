@@ -3,6 +3,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import DownloadIcon from "@mui/icons-material/Download";
 import Resume from "../../assets/Test resume.pdf";
+import BG from "../../assets/316707.jpg"
 
 const ContactForm = () => {
   return (
@@ -17,7 +18,8 @@ const ContactForm = () => {
    
         width: "100%",
         pt: 10,
-        background: "#e6f9f5",
+        background: `url("${BG}")`,
+        backgroundSize:"cover",
         boxSizing: "border-box", // Ensure padding doesn't affect total height
       }}
     >
